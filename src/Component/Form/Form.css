@@ -1,0 +1,35 @@
+.title-form {
+  text-align: center;
+  font-size: 55px;
+  margin: 70px 0 0;
+}
+.form-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-form {
+  padding: 10px;
+  max-width: 900px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  border-radius: 15px;
+  border: none;
+}
+
+.container-form label {
+  font-size: 20px;
+  color: whitesmoke;
+}
+.container-form input,
+.container-form textarea {
+  padding: 10px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  border-radius: 15px;
+}
